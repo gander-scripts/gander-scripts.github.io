@@ -1,0 +1,15 @@
+title: gander-scripts
+tagline: scripts by gander
+description: Scripts and automation helpers by gander.
+url: https://gander-scripts.github.io
+baseurl: ""
+owner:
+  name: gander
+  url: https://github.com/gander
+org_url: https://github.com/gander-scripts
+markdown: kramdown
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

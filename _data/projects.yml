@@ -1,4 +1,18 @@
 # Public repositories of the gander-scripts organization, grouped for the landing page.
 # Each project: name, repo (owner/name), description, language, optional links (label + url).
 
-[]
+- group: Userscripts
+  intro: Browser userscripts for Tampermonkey or Violentmonkey.
+  projects:
+    - name: monkey-redmine-time-widget
+      repo: gander-scripts/monkey-redmine-time-widget
+      language: TypeScript
+      description: Shows on a Redmine issue page how much time has been logged on the issue and its subtasks, and how much is left of the estimate.
+    - name: osm-helper
+      repo: gander-scripts/osm-helper
+      language: TypeScript
+      description: Enhances the OpenStreetMap editing experience by adding links to popular OSM tools, such as OSMCha and Achavi, right on the OSM website.
+    - name: claude.ai-dismiss-reauth
+      repo: gander-scripts/claude.ai-dismiss-reauth
+      language: TypeScript
+      description: Dismisses the "Sign in again to verify your device" dialog on claude.ai by clicking "Not now" for you.
